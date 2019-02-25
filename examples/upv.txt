@@ -1,0 +1,13 @@
+/* ours@2.0 */
+
+# Activities
+SSR@YELLOW@Systemas y Servicios en Red
+TSR@#e74c3c#efefef@Tecnología de Sistemas de Información en la Red
+
+# Slots
+SSR:FLASK:1G 2S-17:MON:1900:2030
+SSR:BOOK:1E 0.3:TUE:1700:1830
+
+TSR:FLASK:1B DSIC 5:WED:1030:1200
+TSR:BOOK:1E 2.0:WED:1300:1430
+TSR:BOOK:1E 2.0:FRI:0930:1100

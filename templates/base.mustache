@@ -1,0 +1,71 @@
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+    {{! <link rel="stylesheet" href="./templates/stylus.css"> }}
+    <style>
+      {{>css}}
+    </style>
+  </head>
+  <body>
+    <div class="day time">
+      <div class="title">Timetable</div>
+      <div class="hour">8:00</div>
+      <div class="hour">9:00</div>
+      <div class="hour">10:00</div>
+      <div class="hour">11:00</div>
+      <div class="hour">12:00</div>
+      <div class="hour">13:00</div>
+      <div class="hour">14:00</div>
+      <div class="hour">15:00</div>
+      <div class="hour">16:00</div>
+      <div class="hour">17:00</div>
+      <div class="hour">18:00</div>
+      <div class="hour">19:00</div>
+      <div class="hour">20:00</div>
+      <div class="hour">21:00</div>
+      <div class="hour">22:00</div>
+    </div>
+
+    <div class="day monday">
+      <div class="title">Monday</div>
+      <div class="classes">
+        {{! <!-- monday:classes --> }}
+        {{>monday}}
+      </div>
+    </div>
+
+    <div class="day tuesday">
+      <div class="title">Tuesday</div>
+      <div class="classes">
+        {{! <!-- tuesday:classes --> }}
+        {{>tuesday}}
+      </div>
+    </div>
+
+    <div class="day wednesday">
+      <div class="title">Wednesday</div>
+      <div class="classes">
+        {{! <!-- wednesday:classes --> }}
+        {{>wednesday}}
+      </div>
+    </div>
+
+    <div class="day thursday">
+      <div class="title">Thursday</div>
+      <div class="classes">
+        {{! <!-- thursday:classes --> }}
+        {{>thursday}}
+      </div>
+    </div>
+
+    <div class="day friday">
+      <div class="title">Friday</div>
+      <div class="classes">
+        {{! <!-- friday:classes --> }}
+        {{>friday}}
+      </div>
+    </div>
+  </body>
+</html>

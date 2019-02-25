@@ -1,0 +1,82 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:300,400,600);
+
+/* Conversions: 10 min = 1vh */
+
+html, body { width: 100%; height: 100%; }
+body {
+  font-family: 'Open Sans', sans-serif;
+  color: #efefef;
+  overflow: hidden;
+}
+
+.day {
+  width: 18%;
+  height: 100vh;
+  float: left;
+  background-color: #fff;
+  background-image: linear-gradient(rgba(0,0,0,.08) 50%, transparent 50%);
+  background-size: 1px 12vh;
+  background-position-y: 4vh;
+}
+
+.day .title {
+  height: 10%;
+  background-color: #34495e;
+  font-size: 12px;
+  font-weight: 600;
+  text-transform: uppercase;
+  text-align: center;
+  line-height: 10vh;
+}
+
+.day.time { width: 10%; }
+
+.day.time .hour {
+  height: 6vh;
+  background-color: rgba(52, 73, 94,0.9);
+  font-size: 12px;
+  text-align: center;
+  line-height: 6vh;
+}
+
+.day .classes {
+  position: relative;
+}
+
+.class {
+  width: 100%;
+  background-color: transparent;
+  position: absolute;
+  overflow: hidden;
+}
+
+.class i {
+  float: right;
+  margin-top: 8px;
+  margin-right: 8px;
+  font-size: 1.7vh;
+}
+
+.class .name {
+  display: block;
+  font-weight: 600;
+  font-size: 1.85vh;
+  padding: 6px 8px;
+}
+
+.class .time {
+  display: block;
+  padding: 0 8px;
+  font-size: 1.6vh;
+  font-weight: 300;
+}
+
+.class .sub {
+  display: block;
+  padding: 0 8px;
+  font-size: 1.3vh;
+  font-weight: 300;
+  bottom: 14px;
+  position: absolute;
+  line-height: 1.5vh;
+}

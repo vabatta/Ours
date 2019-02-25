@@ -1,0 +1,20 @@
+/* ours@2.0 */
+
+EE@BLUE@Experimentation & Evaluation
+AI@PURPLE@Artifical Intelligence
+ADS@GREEN@Algorithm & Data Structures 2
+AFL@YELLOW@Automata & Formal Langauges
+NC@NAVY@Numerical Computing
+
+# EE:BOOK:SI-003:MON:0830:1015
+
+AI:FLASK:SI-013:TUE:1330:1515
+AI:BOOK:SI-006:WED:1030:1215
+
+# ADS:BOOK:SI-004:MON:1330:1515
+
+AFL:BOOK:SI-006:FRI:0830:1015
+
+NC:BOOK:SI-006:TUE:1030:1215
+NC:BOOK:SI-006:THU:0830:1015
+
