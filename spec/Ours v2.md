@@ -1,7 +1,7 @@
 ---
 title: OURS 2.0 SPECIFICATION
 author: Valerio Battaglia
-email: vabatta@gmail.com
+email: ******@gmail.com
 date: 26.09.2018
 version: 2.0
 lang: en
